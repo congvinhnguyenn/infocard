@@ -1,0 +1,151 @@
+html {
+    font-size: 62.5%;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+a,p,h2 {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient( to right top, #65dfc9, #7865e6, #23D5AB, #EE7752, #a82bea);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: change 10s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+
+.glass {
+    background: #fff;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255,255,255,0.7), 
+        rgba(255,255,255,0.3)
+    );
+    border-radius: 2.5rem;
+    z-index: 2;
+    backdrop-filter: blur(0.8rem);
+    display: flex;
+}
+
+.circle1, .circle2 {
+    background: #fff;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255,255,255,0.8), 
+        rgba(255,255,255,0.3)
+    );
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.circle1  {
+    top: 5%;
+    right: 10%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 10%;;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.avatar {
+    width: 12rem;
+}
+
+.user h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.social, 
+.mail-contact {
+    text-decoration: none;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255,255,255,0.7), 
+        rgba(255,255,255,0.3)
+    );
+    border-radius: 2rem;
+}
+
+.info {
+    flex: 2;
+}
+
+.link a {
+    font-size: 1.8rem;
+    padding: 0rem 1.4rem;
+}
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.icon {
+    font-size: 4rem;
+    display: contents;
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.info-title {
+    display: flex;
+    font-size: 4rem;
+    justify-self: center;
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
+.info-des {
+    font-size: 2rem;
+    padding: 0rem 3rem;
+}
