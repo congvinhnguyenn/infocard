@@ -1,0 +1,35 @@
+/* Mobile */
+@media (max-width: 740px) {
+    .glass {
+        display: block;
+        width: 90%;
+        position: relative;
+        min-height: 60vh;
+    }
+
+    .dashboard {
+        background: none;
+        height: 40vh;
+    }
+
+    .avatar {
+        width: 10rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .info-title {
+        display: none;
+    }
+
+    .more-section {
+        color: #658ec6;
+        padding: 0rem 17.7rem;
+        font-size: 2rem;
+    }
+
+    .more-icon {
+        padding-top: 3rem;
+    }
+}

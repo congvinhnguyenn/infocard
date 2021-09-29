@@ -37,7 +37,7 @@ main {
     );
     border-radius: 2.5rem;
     z-index: 2;
-    backdrop-filter: blur(2.5rem);
+    backdrop-filter: blur(0.8rem);
     display: flex;
 }
 
@@ -149,5 +149,3 @@ main {
     font-size: 2rem;
     padding: 0rem 3rem;
 }
-
-
